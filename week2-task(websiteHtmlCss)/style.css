@@ -1,0 +1,595 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    html,
+                    body {
+                        width: 100%;
+                        height: 100%;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    /* ===== main section ===== */
+                    
+                    #main {
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgba(255, 218, 111, 1);
+                        display: grid;
+                        grid-template-rows: 15% 85%;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    #nav {
+                        display: grid;
+                        grid-template-columns: 40% 60%;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-right: 3rem;
+                    }
+                    
+                    .logo {
+                        padding-left: 9rem;
+                        align-self: center;
+                        font-weight: 600;
+                    }
+                    
+                    .nav-txt {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        font-weight: 300;
+                        font-size: small;
+                        padding-right: 2rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    #nav-btn {
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        padding: 0.5rem 1rem;
+                        border-radius: 1rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    #content-main {
+                        display: grid;
+                        grid-template-columns: 47% 53%;
+                    }
+                    
+                    .main-left {
+                        display: grid;
+                        grid-template-rows: 55% 45%;
+                        padding-left: 9rem;
+                        padding-right: 10rem;
+                        padding-top: 3rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .main-left-txt {
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .main-left-txt h1 {
+                        font-size: xx-large;
+                    }
+                    
+                    .main-left-txt h6 {
+                        padding-top: 1rem;
+                        font-size: small;
+                        font-weight: 200;
+                    }
+                    
+                    .main-left-mail {
+                        padding-top: 3rem;
+                    }
+                    
+                    .main-left-mail h6 {
+                        border-bottom: 2px solid black;
+                        padding-bottom: 1rem;
+                    }
+                    
+                    #main-left-btn {
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        padding: 0.5rem 1rem;
+                        border-radius: 1rem;
+                        margin-top: 1rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .main-right {
+                        display: grid;
+                        grid-template-rows: 65% 35%;
+                        padding-left: 3.5rem;
+                    }
+                    
+                    .main-img img {
+                        width: 26rem;
+                        height: 15rem;
+                        padding-top: 1rem;
+                    }
+                    
+                    .main-img {
+                        padding-left: 1rem;
+                    }
+                    
+                    .main-feature {
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        padding-right: 5rem;
+                    }
+                    
+                    .layout-dsg img {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                    
+                    .layout-dsg h3 {
+                        padding-top: 0.7rem;
+                    }
+                    
+                    .layout-dsg p {
+                        padding-top: 0.7rem;
+                        font-size: small;
+                        font-weight: 300;
+                    }
+                    
+                    .layout-dsg h5 {
+                        padding-top: 0.7rem;
+                        color: rgba(255, 122, 0, 1)
+                    }
+                    
+                    .graphic-dsg img {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                    
+                    .graphic-dsg h3 {
+                        padding-top: 0.7rem;
+                    }
+                    
+                    .graphic-dsg p {
+                        padding-top: 0.7rem;
+                        font-size: small;
+                        font-weight: 300;
+                    }
+                    
+                    .graphic-dsg h5 {
+                        padding-top: 0.7rem;
+                        color: rgba(255, 122, 0, 1)
+                    }
+                    /* ===== about section ===== */
+                    
+                    #about {
+                        display: grid;
+                        grid-template-rows: 38% 62%;
+                        width: 100%;
+                        height: 130%;
+                    }
+                    
+                    .welcome {
+                        display: grid;
+                        grid-template-columns: 30% 20% 50%;
+                        margin-left: 7rem;
+                        margin-right: 5rem;
+                        margin-top: 2rem;
+                    }
+                    
+                    .abt-img {
+                        padding-left: 1rem;
+                    }
+                    
+                    .abt-img img {
+                        width: 14rem;
+                        height: 14rem;
+                    }
+                    
+                    .abt-wel {
+                        padding-top: 4rem;
+                    }
+                    
+                    .abt-wel p {
+                        font-size: 0.9rem;
+                        font-weight: 400;
+                        padding-top: 0.5rem;
+                    }
+                    
+                    .abt-wel button {
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        padding: 0.3rem 0.7rem;
+                        border-radius: 1rem;
+                        margin-top: 1rem;
+                        padding: 0.6rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .services-section {
+                        margin-top: 2rem;
+                    }
+                    
+                    .services-section h2 {
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                        padding-top: 4rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .services-grid {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 15px;
+                        margin-top: 1rem;
+                    }
+                    
+                    .service-box {
+                        border: 1px solid #eee;
+                        padding: 10px;
+                        border-radius: 10px;
+                        text-align: left;
+                        background-color: #fff;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+                    }
+                    
+                    .service-box h3 {
+                        margin: 0 0 10px;
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .service-box p {
+                        font-size: 13px;
+                        color: #555;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .service-box.active {
+                        background-color: rgba(255, 218, 111, 1);
+                        color: #000;
+                    }
+                    
+                    .services {
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        margin-top: 3rem;
+                        margin-bottom: 2rem;
+                    }
+                    
+                    .ser-txt {
+                        margin-left: 7rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .ser-img {
+                        margin-right: 2rem;
+                    }
+                    
+                    .ser-img img {
+                        width: 30rem;
+                        height: 25rem;
+                        padding-left: 9rem;
+                    }
+                    
+                    .service-content {
+                        padding-top: 6rem;
+                        padding-left: 1.5rem;
+                    }
+                    
+                    .service-content h1 {
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                        color: #000;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .service-content p {
+                        font-size: 14px;
+                        line-height: 1.6;
+                        margin-bottom: 25px;
+                        color: #333;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .buttons {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                    }
+                    
+                    .btn-black {
+                        background-color: black;
+                        color: white;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 25px;
+                        cursor: pointer;
+                        font-size: 14px;
+                    }
+                    
+                    .btn-black:hover {
+                        background-color: #333;
+                    }
+                    
+                    .btn-link {
+                        color: orange;
+                        font-size: 14px;
+                        text-decoration: none;
+                        font-weight: 500;
+                    }
+                    
+                    .btn-link:hover {
+                        text-decoration: underline;
+                    }
+                    /* ===== Support Section ===== */
+                    
+                    .agency-container {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: auto auto;
+                        gap: 2px;
+                        min-height: 100vh;
+                        margin-top: 3rem;
+                        background-color: rgba(119, 183, 233, 0.11);
+                    }
+                    
+                    .grid-item {
+                        padding: 40px;
+                        background-color: rgba(119, 183, 233, 0.11);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .image img {
+                        border-radius: 50%;
+                        max-width: 300px;
+                        height: auto;
+                    }
+                    
+                    .text {
+                        flex-direction: column;
+                        text-align: left;
+                        align-items: flex-start;
+                        padding-left: 9rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .text h2 {
+                        font-size: 24px;
+                        margin-bottom: 15px;
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .text p {
+                        font-size: 14px;
+                        color: #333;
+                        margin-bottom: 20px;
+                        max-width: 400px;
+                        line-height: 1.5;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    button {
+                        padding: 10px 20px;
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        font-size: 14px;
+                    }
+                    
+                    button:hover {
+                        background-color: #333;
+                    }
+                    /* ===== Pricing Section ===== */
+                    
+                    .pricing-section {
+                        padding: 60px 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .pricing-section h2 {
+                        font-size: 32px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .pricing-section p {
+                        font-size: 14px;
+                        color: #444;
+                        margin-bottom: 40px;
+                        margin-left: 1.3rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .pricing-grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 30px;
+                        max-width: 1100px;
+                        margin: 0 auto;
+                        margin-left: 7rem;
+                        margin-right: 7rem;
+                    }
+                    
+                    .pricing-card {
+                        background-color: #eaf3fc;
+                        padding: 30px;
+                        border-radius: 8px;
+                        text-align: left;
+                    }
+                    
+                    .pricing-card h3 {
+                        font-size: 22px;
+                        margin-bottom: 5px;
+                        margin-left: 1.3rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .subtitle {
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        color: #333;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .feature {
+                        margin-bottom: 20px;
+                        border-bottom: 1px solid #ccc;
+                        padding-bottom: 1px;
+                    }
+                    
+                    .feature h4 {
+                        font-size: 16px;
+                        color: #000;
+                        margin-bottom: 5px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .feature h4 span {
+                        color: #267fff;
+                        margin-left: 5px;
+                    }
+                    
+                    .feature p {
+                        font-size: 13px;
+                        color: #444;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    /* ===== FAQ Section ===== */
+                    
+                    .faq-section {
+                        background-color: rgba(255, 218, 111, 1);
+                        padding: 60px 20px;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .faq-header h2 {
+                        font-size: 28px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .faq-header p {
+                        max-width: 700px;
+                        margin: 0 auto 50px;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 1.6;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .faq-grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 30px 60px;
+                        max-width: 1000px;
+                        margin: 0 auto;
+                    }
+                    
+                    .faq-item {
+                        display: grid;
+                        grid-template-columns: 60px 1fr 30px;
+                        align-items: center;
+                        border-bottom: 1px solid #333;
+                        padding-bottom: 10px;
+                    }
+                    
+                    .faq-number {
+                        color: green;
+                        font-weight: bold;
+                    }
+                    
+                    .faq-question {
+                        text-align: left;
+                        font-weight: 500;
+                    }
+                    
+                    .faq-icon {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    /* ===== Footer Section ===== */
+                    
+                    .footer {
+                        background: #fff;
+                        padding: 40px 20px;
+                        text-align: center;
+                        margin-top: 3rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .footer-top h2 {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin: 0 0 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .footer-top h2 span {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 24px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .subtop {
+                        margin-top: 0.6rem;
+                    }
+                    
+                    .app-btn {
+                        background-color: black;
+                        color: white;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 18px;
+                        font-size: 14px;
+                        cursor: pointer;
+                        margin-top: 1rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .footer-grid {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        text-align: left;
+                        max-width: 1000px;
+                        margin: 40px auto 0;
+                        gap: 50px;
+                        margin-left: 12rem;
+                        padding-top: 3rem;
+                    }
+                    
+                    .footer-column h4 {
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .footer-column ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    
+                    .footer-column li {
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                        color: #333;
+                        cursor: pointer;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
