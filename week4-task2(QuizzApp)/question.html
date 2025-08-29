@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Question</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png">
+            <span class="logo-txt">QuizMaster</span></div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Leaderboard</a>
+            <a href="#">Profile</a>
+            <div class="notification">
+                <span> <img src="images/bell-icon.png" alt="bellicon" class="bell-icon"></span>
+                <img src="images/passport_photo.jpg" alt="User" class="avatar">
+            </div>
+        </nav>
+    </header>
+
+    <div class="quiz-container">
+        <div class="question-header">
+            <span>Question 1 of 10</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <div class="timer">
+            <div class="time-box">
+                <h2>00</h2>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <h2>30</h2>
+                <p>Seconds</p>
+            </div>
+        </div>
+
+        <div class="question-section">
+            <h2>What is the capital of France?</h2>
+            <form class="options">
+                <label><input type="radio" name="answer" checked> London</label>
+                <label><input type="radio" name="answer"> Paris</label>
+                <label><input type="radio" name="answer"> Berlin</label>
+                <label><input type="radio" name="answer"> Rome</label>
+            </form>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
