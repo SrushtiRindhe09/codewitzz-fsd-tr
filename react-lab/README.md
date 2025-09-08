@@ -10,4 +10,5 @@ It includes theory notes, concept breakdowns, and hands-on projects.
 
 ## 💻 Projects
 - [Project 1: Todo List](projects/todoie-list)
-- More projects coming soon...
+- More projects coming soon.
+
