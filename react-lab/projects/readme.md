@@ -19,5 +19,19 @@ The main goal was to understand how React works, how to create components, and a
 3. After the project was created, I removed all the default code from App.js so I could start fresh.
 
 ## 📂 Project Structure (Simple View)
+src/
+ ┣ components/
+ ┃ ┗ Header.jsx
+ ┣ App.js
+ ┗ index.js
+
+### steps I followed for components 
+
+- Made a new file (like Header.jsx) inside components folder.
+- Wrote the component code.
+- Exported that component.
+- Imported it in App.js.
+- Rendered it inside App.js
+- And remember, App.js will finally render inside index.js.
 
       
