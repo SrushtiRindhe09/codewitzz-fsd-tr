@@ -19,9 +19,5 @@ The main goal was to understand how React works, how to create components, and a
 3. After the project was created, I removed all the default code from App.js so I could start fresh.
 
 ## 📂 Project Structure (Simple View)
-   ```bash
-  src/
-    ┣ components/
-    ┃ ┗ Header.jsx
-    ┣ App.js
-    ┗ index.js
+
+      
