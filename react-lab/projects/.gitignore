@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+.cache/
+.next/
+
+# misc
+*.log
+.DS_Store
+.env
