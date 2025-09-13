@@ -26,7 +26,7 @@ The main goal was to understand how React works, how to create components, and a
        ┣ App.js
        ┗ index.js
 
-
+       
 ## steps I followed for components 
 
 - I created separate component files
