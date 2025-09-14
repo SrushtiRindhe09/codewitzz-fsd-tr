@@ -23,7 +23,7 @@ npm start
 
 ## 📝 What I Learned
 
-- I used {} inside JSX to show variables or expressions.
+- I used { } inside JSX to show variables or expressions.
 - JavaScript functions can be called directly inside JSX.
 - Attributes like href can be given values from variables → this makes them dynamic.
 
