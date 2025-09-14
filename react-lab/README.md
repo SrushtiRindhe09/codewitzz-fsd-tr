@@ -9,8 +9,10 @@ It includes theory notes, concept breakdowns, and hands-on projects.
 - More topics coming soon...
 
 ## 💻 Projects
-- [Project 1: Todo List](projects/todoie-list)
+- [Project 1: firstReactApp(basic)](projects/firstReactApp)
+- [Project 2: Todo List](projects/todoie-list)
 - More projects coming soon...
+
 
 
 
