@@ -4,14 +4,15 @@ This folder contains my React learning journey during Full Stack Development Tra
 It includes theory notes, concept breakdowns, and hands-on projects.
 
 ## 📘 Notes
-- [Introduction to React](notes/introduction-to-react.md)
+- [Introduction to React](notes/introductionToReact.md)
 - [Props in React](notes/props.md)
 - More topics coming soon...
 
 ## 💻 Projects
 - [Project 1: firstReactApp(basic)](projects/firstReactApp)
-- [Project 2: Todo List](projects/todoie-list)
+- [Project 2: Todo List](projects/todoieApp)
 - More projects coming soon...
+
 
 
 
