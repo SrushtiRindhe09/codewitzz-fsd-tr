@@ -125,7 +125,10 @@ export default TodoItem;
 Now the same component can be reused with different data.
 
 ---
-
+## 📸 Screenshots
+### Output
+![Output](./screenshots/todooutput.jpeg)
+---
 ## 🎯 What I Learned
 
 - How to create a React project from scratch
