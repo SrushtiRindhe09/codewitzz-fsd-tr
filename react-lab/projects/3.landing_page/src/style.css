@@ -1,0 +1,127 @@
+            body {
+                margin: 0;
+                font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                background: #fafbff;
+                color: #2d2d2d;
+            }
+            
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 100px;
+                background: #fff;
+            }
+            
+            .logo {
+                font-weight: 600;
+                font-size: 19px;
+            }
+            
+            .nav-links {
+                list-style: none;
+                display: flex;
+                gap: 45px;
+                color: #555;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            
+            .nav-links li {
+                cursor: pointer;
+            }
+            
+            .contact-icon {
+                height: 25px;
+                width: 29px;
+            }
+            
+            .search-icon {
+                height: 25px;
+                width: 40px;
+            }
+            
+            .icons span {
+                margin-left: 40px;
+                cursor: pointer;
+            }
+            
+            .hero {
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: 85px;
+                font-weight: bold;
+            }
+            
+            .hero .highlight {
+                color: #7b2ff7;
+            }
+            
+            .hero p {
+                max-width: 600px;
+                color: #555;
+                font-size: 17px;
+                line-height: 1.8;
+                margin: 5px auto;
+            }
+            
+            .buttons {
+                margin-top: 30px;
+            }
+            
+            .btn {
+                padding: 12px 25px;
+                margin: 10px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+            
+            .btn-black {
+                background: #000;
+                color: #fff;
+            }
+            
+            .btn-outline {
+                border: 1px solid #ccc;
+                background: #fff;
+                color: #000;
+            }
+            
+            .features {
+                text-align: center;
+                padding: 80px 20px;
+            }
+            
+            .tag {
+                background: #f0f5ff;
+                color: #2a4eff;
+                border: none;
+                border-radius: 20px;
+                padding: 8px 20px;
+                font-size: 14px;
+                cursor: default;
+                margin-bottom: 20px;
+            }
+            
+            .features h1 {
+                font-size: 75px;
+                font-weight: bold;
+                margin: 20px 0;
+            }
+            
+            .features .highlight {
+                color: #7b2ff7;
+            }
+            
+            .features p {
+                max-width: 650px;
+                margin: 20px auto;
+                color: #555;
+                font-size: 19px;
+                line-height: 1.8;
+                padding-top: 20px;
+            }
