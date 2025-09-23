@@ -4,7 +4,7 @@ import contactIcon from "./assets/contact-icon.png";
 
 
 function Navbar() {
-// Import the image from the assets folder
+
 
 return (
     <nav className="navbar">
