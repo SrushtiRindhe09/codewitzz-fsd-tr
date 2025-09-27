@@ -6,6 +6,7 @@ import Features from "./Components/features";
 import FeatureCard from "./Components/featureCard";
 import ExploreFeatures from "./Components/Explorefeaturebtn";
 import HeroSection from "./Components/Action";
+
 import './style.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
        <FeatureCard />
        <ExploreFeatures/>
          <HeroSection />
+         
     </div>
   );
 }
