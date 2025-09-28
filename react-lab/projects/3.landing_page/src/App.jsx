@@ -6,6 +6,8 @@ import Features from "./Components/features";
 import FeatureCard from "./Components/featureCard";
 import ExploreFeatures from "./Components/Explorefeaturebtn";
 import HeroSection from "./Components/Action";
+import FeaturesSection from "./Components/FeaturesSection";
+import Footer from "./Components/footer";
 
 import './style.css';
 
@@ -18,7 +20,8 @@ function App() {
        <FeatureCard />
        <ExploreFeatures/>
          <HeroSection />
-         
+        <FeaturesSection/>
+          <Footer />
     </div>
   );
 }

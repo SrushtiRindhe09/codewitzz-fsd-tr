@@ -7,7 +7,7 @@ const ExploreFeatures = () => {
         Explore All Features <span className="arrow">→</span>
       </button>
       <p className="explore-info">
-        <span className="icon">✨</span> No credit card required • 14-day free trial • Cancel anytime
+        <span className="ex-icon">✨</span> No credit card required • 14-day free trial • Cancel anytime
       </p>
     </div>
   );
