@@ -1,4 +1,4 @@
-# 📝 Todo App – My First React Project
+ 📝 Todo App – My First React Project
 
 This is my very first project in **React JS**.  
 The main goal was to understand how React works, how to create components, and also how to upload a project on **GitHub** without errors.  
