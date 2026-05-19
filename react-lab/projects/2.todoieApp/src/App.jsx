@@ -6,7 +6,7 @@ import HooksComponent from './Components/HooksComponent.jsx';
 import Timer from './Components/Timer.jsx';
 import './style.css';
 
-const App = () => 
+const App = () => {
     return (
     <div id="todo-container">
         <Timer/>
