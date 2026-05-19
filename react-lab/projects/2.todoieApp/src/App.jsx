@@ -8,7 +8,7 @@ import './style.css';
 
 const App = () => {
     return (
-    <div id="todo-container">
+    <div id="todo-container"></div>
         <Timer/>
         <HooksComponent/>        
         <Header/>
